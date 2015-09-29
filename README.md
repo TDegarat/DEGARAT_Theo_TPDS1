@@ -8,7 +8,7 @@ Consignes d'installation :
 * Cloner ce dépôt dans le répertoire de travail du serveur Web (exemple : `c:\xampp\htdocs` avec XAMPP pour Windows).
 * Configurer Apache pour définir un hôte virtuel vers ce répertoire. Exemple avec XAMPP sous Windows :
 
----
+```
 <VirtualHost *:80>
     DocumentRoot "C:\xampp\htdocs\microcms-VotreNom\web"
     ServerName microcms
@@ -16,7 +16,7 @@ Consignes d'installation :
         AllowOverride all
     </Directory>
 </VirtualHost>
----
+```
 
 * Vérifier que l'URL http://microcms est fonctionnelle.
 * Coder le projet dans ce répertoire et synchroniser régulièrement avec GitHub.
