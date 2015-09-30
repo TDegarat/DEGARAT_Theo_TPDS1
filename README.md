@@ -18,6 +18,7 @@ Consignes d'installation :
 </VirtualHost>
 ```
 
+* Copier le code source de votre projet MicroCMS dans le répertoire `microcms-VotreNom`.
 * Vérifier que l'URL http://microcms est fonctionnelle.
 * Coder le projet dans ce répertoire et synchroniser régulièrement avec GitHub.
 
