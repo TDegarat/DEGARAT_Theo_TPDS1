@@ -2,7 +2,6 @@
 
 
 use Symfony\Component\Debug\ErrorHandler;
-
 use Symfony\Component\Debug\ExceptionHandler;
 
 
@@ -27,7 +26,5 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 // Register services.
 
 $app['dao.article'] = $app->share(function ($app) {
-
     return new MicroCMS\DAO\ArticleDAO($app['db']);
-
 });
