@@ -25,6 +25,6 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 
 // Register services.
 
-$app['dao.article'] = $app->share(function ($app) {
-    return new MicroCMS\DAO\ArticleDAO($app['db']);
+$app['dao.bike'] = $app->share(function ($app) {
+    return new Cycloo\DAO\BikeDAO($app['db']);
 });

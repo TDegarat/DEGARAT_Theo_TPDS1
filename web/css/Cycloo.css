@@ -7,3 +7,12 @@ body {
     padding-top: 10px;
     text-align: center;
 }
+
+h2{
+ color:darkred;
+ text-decoration:underline;
+}
+
+.footer{
+ color:darkred;
+}

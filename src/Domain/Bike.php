@@ -1,8 +1,8 @@
 <?php
 
-namespace MicroCMS\Domain;
+namespace Cycloo\Domain;
 
-class Article 
+class Bike
 
 {
     /**
@@ -18,14 +18,14 @@ class Article
      * @var string
      */
 
-    private $title;
+    private $name;
     /**
      * Article content.
      *
      * @var string
 
      */
-    private $content;
+    private $description;
 
     public function getId() {
 
@@ -37,27 +37,27 @@ class Article
 
     }
 
-    public function getTitle() {
+    public function getName() {
 
-        return $this->title;
-
-    }
-
-    public function setTitle($title) {
-
-        $this->title = $title;
+        return $this->name;
 
     }
 
-    public function getContent() {
+    public function setName($name) {
 
-        return $this->content;
+        $this->name = $name;
 
     }
 
-    public function setContent($content) {
+    public function getDescription() {
 
-        $this->content = $content;
+        return $this->description;
+
+    }
+
+    public function setDescription($description) {
+
+        $this->description = $description;
 
     }
 }

@@ -1,6 +1,4 @@
-create database if not exists microcms character set utf8 collate utf8_unicode_ci;
+create database if not exists cycloo character set utf8 collate utf8_unicode_ci;
+use cycloo;
 
-use microcms;
-
-
-grant all privileges on microcms.* to 'microcms_user'@'localhost' identified by 'secret';
+grant all privileges on cycloo.* to 'cycloo_user'@'localhost' identified by 'secret';

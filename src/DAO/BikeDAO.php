@@ -1,9 +1,9 @@
 <?php
-namespace MicroCMS\DAO;
+namespace Cycloo\DAO;
 
 use Doctrine\DBAL\Connection;
-use MicroCMS\Domain\Article;
-class ArticleDAO
+use Cycloo\Domain\Bike;
+class BikeDAO
 {
 
     /**
@@ -32,19 +32,19 @@ class ArticleDAO
      */
     public function findAll() {
 
-        $sql = "select * from t_article order by art_id desc";
+        $sql = "select * from t_bike order by bike_id desc";
 
         $result = $this->db->fetchAll($sql);
 
         // Convert query result to an array of domain objects
 
-        $articles = array();
+        $bikes = array();
 
         foreach ($result as $row) {
-            $articleId = $row['art_id'];
-            $articles[$articleId] = $this->buildArticle($row);
+            $bikeId = $row['bike_id'];
+            $bikes[$bikeId] = $this->buildArticle($row);
         }
-        return $articles;
+        return $bikes;
     }
 
     /**
@@ -55,11 +55,11 @@ class ArticleDAO
      */
     private function buildArticle(array $row) {
 
-        $article = new Article();
-        $article->setId($row['art_id']);
-        $article->setTitle($row['art_title']);
-        $article->setContent($row['art_content']);
-        return $article;
+        $bike = new Bike();
+        $bike->setId($row['bike_id']);
+        $bike->setName($row['bike_name']);
+        $bike->setDescription($row['bike_description']);
+        return $bike;
 
     }
 }

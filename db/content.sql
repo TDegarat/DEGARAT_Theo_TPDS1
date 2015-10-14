@@ -1,11 +1,6 @@
-insert into t_article values
-
-(1, 'First article', 'Hi there! This is the very first article.');
-
-insert into t_article values
-
-(2, 'Lorem ipsum', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit mauris ac porttitor accumsan. Nunc vitae pulvinar odio, auctor interdum dolor. Aenean sodales dui quis metus iaculis, hendrerit vulputate lorem vestibulum. Suspendisse pulvinar, purus at euismod semper, nulla orci pulvinar massa, ac placerat nisi urna eu tellus. Fusce dapibus rutrum diam et dictum. Sed tellus ipsum, ullamcorper at consectetur vitae, gravida vel sem. Vestibulum pellentesque tortor et elit posuere vulputate. Sed et volutpat nunc. Praesent nec accumsan nisi, in hendrerit nibh. In ipsum mi, fermentum et eleifend eget, eleifend vitae libero. Phasellus in magna tempor diam consequat posuere eu eget urna. Fusce varius nulla dolor, vel semper dui accumsan vitae. Sed eget risus neque.');
-
-insert into t_article values
-
-(3, 'Lorem ipsum in french', "J’en dis autant de ceux qui, par mollesse d’esprit, c’est-à-dire par la crainte de la peine et de la douleur, manquent aux devoirs de la vie. Et il est très facile de rendre raison de ce que j’avance. Car, lorsque nous sommes tout à fait libres, et que rien ne nous empêche de faire ce qui peut nous donner le plus de plaisir, nous pouvons nous livrer entièrement à la volupté et chasser toute sorte de douleur ; mais, dans les temps destinés aux devoirs de la société ou à la nécessité des affaires, souvent il faut faire divorce avec la volupté, et ne se point refuser à la peine. La règle que suit en cela un homme sage, c’est de renoncer à de légères voluptés pour en avoir de plus grandes, et de savoir supporter des douleurs légères pour en éviter de plus fâcheuses.");
+insert into t_bike values
+(1, 'Cannondale Jekyll', "Porté par les exploits du champion du monde Jérôme Clementz, le Jekyll fait déjà figure de monstre sacré dans la discipline si particulière que constitue l’enduro. Ce qui n’a pas empêché Cannondale de lui octroyer en 2015 un bain de jouvence pour tendre encore davantage, si cela est possible, vers l’excellence absolue. Outre une toute nouvelle géométrie au look encore plus agressif pour aborder en conquérant montées et descentes, le Jekyll se pare de la toute nouvelle fourche SuperMax 160mm avec déport de 50mm à l’avant pour maximiser la précision et d’un amortisseur 2 en 1 DYAD RT2 à l’arrière pour un meilleur filtrage des difficultés. Avec sa géométrie ajustable selon les obstacles grâce aux modes Elevate (rehaussé) et Flow (plus stable) et ses roues de 27.5 permettant accélérations et confort, déjouer les obstacles devient alors un pur plaisir. En cadre carbone ou en alu, tous les Jekyll 2015 vous attendent au meilleur prix chez Cycloo.");
+insert into t_bike values
+(2, 'Specialized Turbo', "Le Specialized Turbo associe la vitesse au style en utilisant un moteur électrique innovant à un design épuré. Capable d’atteindre une vitesse de 45km/h (selon les versions), le Turbo donne des super pouvoirs à quiconque l’enfourche. Si vous préférez les pistes à l‘asphalte, le Turbo X se dote d‘une fourche télescopique afin de vous transporter là où vous le désirez.");
+insert into t_bike values
+(3, 'Commencal Acid', "Toujours aussi singulier avec son tube supérieur et ses haubans qui s'entremêlent, ce fixie apporte une note de couleur et d'exotisme à un environnement urbain parfois bien terne. L'Acid est un objet d'art autant qu'un moyen de locomotion !");
